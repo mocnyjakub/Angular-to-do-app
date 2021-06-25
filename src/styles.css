@@ -1,0 +1,10 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::after,*::before{
+  box-sizing: inherit;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
