@@ -1,0 +1,27 @@
+.newTodo__wrapper {
+  display: flex;
+  min-width: 70vw;
+  min-height: 10vh;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newTodo__title {
+  align-self: flex-start;
+}
+.input__wrapper {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+input {
+  flex: 1;
+  margin-right: 5%;
+}
+.newTodo__title {
+  margin-bottom: 1rem;
+}

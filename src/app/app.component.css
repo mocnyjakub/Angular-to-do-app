@@ -1,3 +1,14 @@
-p {
-  font-family: Lato;
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 30vh;
+  background: rgb(59, 59, 88);
+  background: linear-gradient(
+    208deg,
+    rgba(59, 59, 88, 1) 9%,
+    rgba(0, 122, 193, 1) 90%
+  );
 }

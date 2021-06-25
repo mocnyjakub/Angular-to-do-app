@@ -1,0 +1,19 @@
+button {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background: rgb(59, 59, 88);
+  background: linear-gradient(
+    208deg,
+    rgba(59, 59, 88, 1) 9%,
+    rgba(0, 122, 193, 1) 90%
+  );
+
+  color: #fff;
+}
